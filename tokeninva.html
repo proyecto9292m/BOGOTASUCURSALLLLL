@@ -77,18 +77,21 @@
             font-family: 'Open Sans', sans-serif;
         }
 
+        /* ===== AJUSTE PARA VISTA PC ===== */
         .container {
             display: flex !important;
             flex-direction: row !important;
             justify-content: center !important;
             align-items: flex-start !important;
-            max-width: 1000px !important;
+            max-width: 1400px !important;
+            width: 100% !important;
             margin: 0 auto !important;
-            padding: 20px !important;
+            padding: 60px 40px !important;
             background: transparent !important;
             box-shadow: none !important;
             position: relative !important;
             height: auto !important;
+            gap: 60px !important;
         }
 
         .login-card-content {
@@ -101,11 +104,11 @@
         }
 
         .container__login {
-            flex: 0 0 380px !important;
+            flex: 0 0 520px !important;
             padding-top: 0 !important;
-            margin-right: 40px !important;
+            margin-right: 0 !important;
             background: transparent !important;
-            width: 380px !important;
+            width: 520px !important;
             box-shadow: none !important;
             display: block !important;
         }
@@ -118,7 +121,7 @@
             height: auto !important;
             box-shadow: none !important;
             display: block !important;
-            max-width: 500px !important;
+            max-width: 700px !important;
         }
 
         @media (max-width: 768px) {
@@ -132,6 +135,7 @@
                 padding: 15px !important;
                 width: 100% !important;
                 box-sizing: border-box !important;
+                gap: 0 !important;
             }
 
             .container__login {
